@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products-Plantech Innovations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/dfba0bb4d8.js"></script>
+</head>
+<body>
+    
+    <section id="header">
+        <a href="index.html"><img src="Plantech products/logo.png" class="logo" alt="" height=80px width=100px></a>
+
+        <div>
+            <ul id="navbar">
+                <a href="#" id="close"><i class='fa fa-close'></i></a>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active"href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+            <i id="bar" class="fa fa-bars" aria-hidden="true"></i>      
+                 
+        </div>
+    </section>
+
+    <section id="prodetails" class="sectio-p1">
+        <div class="single-pro-image">
+            <img src="Plantech products/gamla.jpg" width="100%" length = "80%" id="MainImg" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="Plantech products/gamla.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="Plantech products/example.jpg" width="120%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="Plantech products/example.jpg" width="120%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="Plantech products/example.jpg" width="120%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h5>Plantech-Innovations</h5>
+            <h4>Digital Gamla</h4>
+            <h2>₹1599</h2>
+            <input type="number" value="1">
+            <button class="normal">Add to cart</button>
+            <h4>Product Details</h4>
+            <span>Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text Sample text sample text </span>
+        </div>
+    </section>
+
+
+
+    </section>
+
+    
+
+   <footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="Plantech products/logo.png" alt=""  height=80px width=100px>
+        <h4>Contact</h4>
+        <p><strong>Address :</strong> Sector No-8 Sonbhadra,Uttar Pradesh</p>
+        <p><strong>Phone :</strong> +918090167117</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About US</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+        <a href="#">About US</a>
+    </div>
+
+    <div class="col">
+        <h4>MY Account</h4>
+        <a href="#">Sign In</a>
+        <a href="cart.html">View Cart</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+
+    
+    <div class="col install">
+                    
+        <p>Secured payment Gateways</p>
+        <img src="img/pay/pay.png" alt="">
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © 2023 plantechinnovations</p>
+    </div>
+
+
+   </footer>
+
+   <script>
+    var MainImg = document.getElementById("MainImg");
+    var smallimg = document.getElementsByClassName("small-img");
+
+
+    smallimg[0].onclick = function(){
+        MainImg.src = smallimg[0].src
+    }
+    smallimg[1].onclick = function(){
+        MainImg.src = smallimg[1].src
+    }
+    smallimg[2].onclick = function(){
+        MainImg.src = smallimg[2].src
+    }
+    smallimg[3].onclick = function(){
+        MainImg.src = smallimg[3].src
+    }
+   </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
